@@ -9,5 +9,5 @@ public class MultiplyOperation extends AbstractOperation {
                 break;
             }
         }
-        return num1 - num2;}
+        return num1 * num2;}
 }

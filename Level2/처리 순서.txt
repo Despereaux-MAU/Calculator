@@ -1,17 +1,8 @@
-1. 정수형 타입에서 가장 범위가 큰 long을 이용한 계산기
-2. 양의 정수만 사용 가능
-3. 분모가 0인 나눗셈 제외
-4. Try-Catch문으로 예외 처리 및 원인 파악
-
-1. Main 클래스 생성
-2. Calculator 클래스 생성
-3. Main 클래스에서 Calculator 클래스 참조값 리턴
-4. Calculator에 사칙연산 매개변수 생성
-5. 메서드에서 객체 내부에 접근하기 위해 this 키워드 추가(public)
-6. 사칙연산 throw 및 리턴 값 입력
-7. Calculator 클래스에 switch 문으로 부모 클래스 불러오기
-8. Main 클래스에 calculator 안에 부모 계산자 상속
-9. 추상 클래스(AbstractOperation) 생성
-10. operate 정의
-11. 사칙연산 클래스에 추상 클래스 상속
-12. Calculator 오류 <identifier> expected -> switch 문 if 문으로 변경
+1. Calculator 클래스에 입력은 0을 포함한 양의 정수 출력되도록
+if문으로 작성
+2. main에서 사칙연산 및 스캐너로 결과값 출력해주는 기능 추가
+3. Calculator 클래스에 Final 로 상수 클래스로 변경
+4. 연산자Operation 클래스에 연산자 작성
+5. main 클래스에 new Calculator에 사칙연산 추가
+6. AbstractOperation 클래스 Calculator 클래스에 상속
+7. AbstractOperation 클래스 추상 클래스로 선언
