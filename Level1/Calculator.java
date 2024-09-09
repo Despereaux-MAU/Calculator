@@ -86,9 +86,8 @@ public class Calculator {
                 }
                 // 결과값 출력
                 System.out.println("결과: " + result);
-                System.out.println("더 계산하시겠습니까? (exit 입력 시 종료)");
+                System.out.println("더 계산하시겠습니까? (종료하려면 'exit' 입력)");
 
-                //exit 입력하면 꺼짐
                 String text = scanner.next();
                 if (Objects.equals(text, "exit")) {
                     break;
