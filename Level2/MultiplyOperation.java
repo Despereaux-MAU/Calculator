@@ -1,13 +1,11 @@
 package despereaus_calculator.Level2;
 
-public class MultiplyOperation extends AbstractOperation {
-    @Override
-    public long operate(long num1, long num2) {
+public class MultiplyOperation {
+    public long operate(long a, long b) {
         while (true) {
-            if (num1 < 0 || num2 < 0) {
-                System.out.println("음수는 입력할 수 없습니다.");
-                break;
-            }
+            if (a < 0 || b < 0) {
+                throw new ArithmeticException("음수는 입력할 수 없습니다.");
+            }return a * b;
         }
-        return num1 * num2;}
+    }
 }
